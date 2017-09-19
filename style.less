@@ -1,0 +1,44 @@
+@heading-color: #0000ff;
+@paragraph-color: #808080;
+@panel-color: #808080;
+
+h1{
+  color: @heading-color;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+  color: @paragraph-color;
+}
+
+.panel{
+  border: 3px solid dodgerblue;
+  background: @panel-color;
+  margin: 10px;
+}
+
+.little-panel{
+  .panel;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.big-panel{
+  .panel;
+  font-size: 32px;
+  padding: 20px;
+}
+
+#side-nav{
+  background: #333;
+
+  a:link{
+    color: white;
+    display: block;
+    padding: 8px;
+  }
+
+  a:hover{
+    background: #777;
+  }
+}
