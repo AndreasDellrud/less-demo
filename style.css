@@ -1,21 +1,14 @@
+.panel {
+  border: 3px solid dodgerblue;
+  background: #808080;
+  margin: 10px;
+}
 h1 {
   color: #0000ff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 p {
   color: #808080;
-}
-.panel {
-  border: 3px solid dodgerblue;
-  background: #808080;
-  margin: 10px;
-}
-.little-panel {
-  border: 3px solid dodgerblue;
-  background: #808080;
-  margin: 10px;
-  font-size: 12px;
-  padding: 5px;
 }
 .big-panel {
   border: 3px solid dodgerblue;
@@ -34,4 +27,11 @@ p {
 }
 #side-nav a:hover {
   background: #777;
+}
+.little-panel {
+  border: 3px solid dodgerblue;
+  background: #808080;
+  margin: 10px;
+  font-size: 12px;
+  padding: 5px;
 }

@@ -1,6 +1,6 @@
+@import "panel.less";
 @heading-color: #0000ff;
 @paragraph-color: #808080;
-@panel-color: #808080;
 
 h1{
   color: @heading-color;
@@ -9,18 +9,6 @@ h1{
 
 p{
   color: @paragraph-color;
-}
-
-.panel{
-  border: 3px solid dodgerblue;
-  background: @panel-color;
-  margin: 10px;
-}
-
-.little-panel{
-  .panel;
-  font-size: 12px;
-  padding: 5px;
 }
 
 .big-panel{
@@ -41,4 +29,10 @@ p{
   a:hover{
     background: #777;
   }
+}
+
+.little-panel{
+  .panel;
+  font-size: 12px;
+  padding: 5px;
 }
